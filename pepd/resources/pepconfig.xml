@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<PEPConfig>
+
+
+
+	<OutOfProcess logger="/home/watanabe/workspace/swinpro-pep/pepd/resources/pepd.logger" />
+
+	<InProcess logger="/home/watanabe/workspace/swinpro-pep/pepd/resources/mod_pep.logger" />
+
+
+	<Listener>
+		<!-- <UnixListener address="/var/run/pep/pepd.sock" stackSize="1024" /> -->
+		<UnixListener address="/var/run/pep/pepd.sock" stackSize="396608" />
+	</Listener>
+
+	<ApplicationDefaults>
+		<Authorization Location="/handler/Authorization"
+			pdpURL="http://localhost:8080/swinpro-pdp/XACMLPortImplService" />
+	</ApplicationDefaults>
+
+</PEPConfig>
