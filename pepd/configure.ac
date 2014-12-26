@@ -1,7 +1,7 @@
 dnl Process this file with autoconf to produce a configure script.
 
 AC_PREREQ(2.59)
-AC_INIT(pepd, 1.0)
+AC_INIT(pepd, 1.0.0)
 
 
 AC_CANONICAL_SYSTEM

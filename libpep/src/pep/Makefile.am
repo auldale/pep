@@ -32,6 +32,7 @@ confinclude_HEADERS = \
 coreinclude_HEADERS = \
 	core/AbstractPEPRequest.h \
 	core/Application.h \
+	core/AuthorizationConstants.h \
 	core/PEP.h \
 	core/PEPRequest.h \
 	core/PEPRequestImpl.h \
